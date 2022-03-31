@@ -1,0 +1,16 @@
+ls wyswietla co jest w folderze 
+git init - tworzy nowe repozytorium 
+touch nazwa - tworzy plik 
+code . - otwiera pliki w visualu 
+git status - pokazuje status plikow w repozytorium 
+git add nazwa - dodaje do staggingu 
+git add -A - dodaje wszystkie pliki (jak jest ich wiecej) do staggingu
+git commit-m"message" - dodaje do repozytorium "tutaj wiadomosc o tym co zmienilismy"
+git commit -am"message" - dodaje od razu wszystko zmienione do repozytorium (stagging i commit)
+git log - historia commita 
+git branch - pokazuje na jakim branchu aktualnie jestesmy 
+git checkout -b"nazwa" - tworzy nowego brancha
+git checkout nazwa - przekierowujemy sie do innego brancha 
+git merge nazwa - przenoszenie brancha do innego(do tego w ktorym jestesmy)
+/// to byly dzialanie na lokalnym repozytorium na naszym komputerze 
+
