@@ -1,0 +1,25 @@
+(id_produktu, nazwa_produktu, id_klienta, nazwa_klienta, data_zamowienia, cena_produktu, ilość, VAT, suma_brutto, suma_netto)
+
+1)
+id_produktu -> nazwa_produktu, cena_produktu, VAT
+nazwa_produktu -> id_produktu, cena_produktu
+id_klienta -> nazwa_klienta
+nazwa_klienta -> id_klienta
+data_zamowienia -> id_produktu,nazwa_produktu, id_klienta, ilość, cena_produktu
+cena_produktu , ilosc -> suma_netto 
+VAT -> nazwa_produktu
+suma_netto + Vat -> suma_brutto
+
+2) klucze kandydujące: nazwa_produktu, nazwa_klienta, id_produktu, id_klienta
+
+3) (id_pomieszczenia, numer_pomieszczenia, id_budynku, powierzchnia, liczba_okien, liczba_drzwi, ulica, miasto, kod_pocztowy)
+
+id_pomieszczenia -> numer_pomieszczenia
+numer_pomieszczenia, id_budynku-> id_pomieszczenia
+id_budynku -> powierzchnia,liczba_okien, liczba_drzwi, ulica, miasto, kod_pocztowy
+kod_pocztowy -> miasto
+miasto -> kod_pocztowy
+
+klucze kandydujące: id_pomieszczenia, {numer_pomieszczania, ID_BUDYNKU}
+
+
